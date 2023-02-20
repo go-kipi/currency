@@ -5,4 +5,5 @@ package entity
 type Currency struct {
 	Id   string `json:"id"`
 	Name string `json:"name"`
+	Rate `json:"rate"`
 }
